@@ -1,0 +1,9 @@
+{
+    "channelID": "",
+    "twitchChannels": [],
+    "discordToken": "",
+    "twitchUsername": "",
+    "twitchPassword": "",
+    "twitchClientID": "",
+    "maxWebhooks": 10
+}

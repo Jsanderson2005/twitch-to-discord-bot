@@ -1,0 +1,17 @@
+{
+  "name": "twitch-to-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "tmi.js": "^1.7.5"
+  },
+  "engines": {
+    "node": "15.5"
+  }
+}
