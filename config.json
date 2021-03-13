@@ -5,5 +5,5 @@
     "twitchUsername": "",
     "twitchPassword": "",
     "twitchClientID": "",
-    "maxWebhooks": 10
+    "maxWebhooks": 0
 }

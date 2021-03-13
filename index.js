@@ -1,12 +1,9 @@
 const Discord = require('discord.js');
 const tmi = require('tmi.js');
 const config = require('./config.json')
-const express = require('express')
+const testConfig = require('./test_config.js')
 
-
-const app = express()
-const port = process.env.PORT || 5000
-
+testConfig.TestConfig()
 
 const opts = {
     identity: {
@@ -30,15 +27,8 @@ client.on('connected', onConnectedHandler);
 
 
 client.connect();
-app.listen(port, () => {
-    console.log(`App listening at http://localhost:${port}`)
-})
 bot.login(config.discordToken);
 
-
-app.get('/', (req, res) => {
-    res.send('Twitch to Discord Bot')
-  })
 
 async function onMessageHandler(target, context, msg, self) {
     if (self) { return; }

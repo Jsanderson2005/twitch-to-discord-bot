@@ -20,3 +20,19 @@
 | `twitchClientID`      | The client ID for a twitch app. Create one [here](https://dev.twitch.tv/console/apps/create). |
 | `maxWebhooks`         | The chat is delivered by Web Hooks. Discord rate limits them. If you have a busy chat, you will need to have more Web Hooks. (The discord bot will generate it for you.) |
 
+
+
+### Docker
+
+To run in docker, configure the program using the guide above, then build the container:
+
+```
+docker build --tag twitch-to-discord .
+```
+
+Then run the image@
+
+```
+docker run --name twitch-to-discord -it twitch-to-discord
+```
+
