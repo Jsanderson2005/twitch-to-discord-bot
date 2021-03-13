@@ -10,4 +10,4 @@ COPY . .
 
 RUN node -e 'require("./test_config.js").TestConfig()'
 
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
