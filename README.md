@@ -30,7 +30,7 @@ To run in docker, configure the program using the guide above, then build the co
 docker build --tag twitch-to-discord .
 ```
 
-Then run the image@
+Then run the image:
 
 ```
 docker run --name twitch-to-discord -it twitch-to-discord
